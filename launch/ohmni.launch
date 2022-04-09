@@ -1,0 +1,6 @@
+<launch>
+    <node name="robot_gui" pkg="robot_gui" type="robot_gui" output="screen">
+        <rosparam param="gui_host">127.0.0.1</rosparam>
+        <rosparam param="gui_port">8080</rosparam>
+    </node>
+</launch>
